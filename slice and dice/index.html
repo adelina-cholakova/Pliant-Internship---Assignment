@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GhostHost</title>
+    <link rel="icon" href="images/title-icon.png" type="images/x-icon" />
+
+    <!--Styles-->
+
+    <link rel="stylesheet" href="styles/styles.css" />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Mukta:wght@800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/8ee5654bb7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="main-page">
+      <header class="wrapper">
+        <div class="header-container">
+          <div class="logo-container">
+            <a href="#">
+              <img src="images/logo.png" />
+            </a>
+          </div>
+          <div>
+            <nav class="main-nav">
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">Domain</a>
+                </li>
+                <li>
+                  <a href="#">Hosting</a>
+                </li>
+                <li>
+                  <a href="#">Clients</a>
+                </li>
+                <li>
+                  <a href="#carousel">Blog</a>
+                </li>
+                <li>
+                  <a href="#about-us">Support</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="divider"></div>
+      </header>
+      <div class="main-page-title-container">
+        <div class="title">
+          <p>Hello</p>
+        </div>
+        <div class="subtitle">
+          <p>We love our work...</p>
+          <p>And We're taking it seriously...</p>
+        </div>
+      </div>
+    </div>
+    <section id="buttons-container">
+      <div class="login">
+        <a href="#"><span>login</span></a>
+      </div>
+
+      <div class="register">
+        <a href="#">
+          <span>register</span>
+        </a>
+      </div>
+    </section>
+    <section id="about-us">
+      <div class="about-us-container wrapper">
+        <div class="about-us-info">
+          <div class="title">
+            <span>about us</span>
+          </div>
+          <div class="description">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+              feugiat eget diam sit amet molestie.Curabitur. ut ipsum bibendum
+              tortor lacinia fermentum nec joeıa. Mauris at augue libero. Fusce
+              posuere, sapien nec poır. Uaee augsuada sed mauris in tincidunt...
+            </p>
+          </div>
+        </div>
+
+        <div class="about-us-team">
+          <div class="team-member">
+            <div class="avatar">
+              <img src="images/team-1.png" />
+            </div>
+            <div>
+              <span class="name">Jonny Doe</span>
+            </div>
+            <div>
+              <span class="position">Designer</span>
+            </div>
+            <div class="socials">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fas fa-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="team-member">
+            <div class="avatar">
+              <img src="images/team-2.png" />
+            </div>
+            <div>
+              <span class="name">John Doe</span>
+            </div>
+            <div>
+              <span class="position">Designer</span>
+            </div>
+            <div class="socials">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fas fa-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="team-member">
+            <div class="avatar">
+              <img src="images/team-3.png" />
+            </div>
+            <div>
+              <span class="name">Johnathan Doe</span>
+            </div>
+            <div>
+              <span class="position">Designer</span>
+            </div>
+            <div class="socials">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fas fa-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="carousel">
+      <div class="carousel-container">
+        <div class="comment">
+          <p id="comment"></p>
+        </div>
+        <div class="author-and-nav">
+          <div class="author-container">
+            <span id="author"></span>
+          </div>
+          <div class="dots-container">
+            <ul class="dots">
+              <li class="dot active-dot" onclick="currentSlide(0)">
+                <a href="#"></a>
+              </li>
+              <li class="dot" onclick="currentSlide(1)">
+                <a href="#"></a>
+              </li>
+              <li class="dot" onclick="currentSlide(2)">
+                <a href="#"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="services-container wrapper">
+        <div class="service">
+          <div class="service-icon fast-servers">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <div class="service-title">
+            <p>Fast Servers</p>
+          </div>
+          <div class="service-info">
+            <p>
+              Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.
+            </p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service-icon cloud-servers">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <div class="service-title">
+            <p>Cloud Servers</p>
+          </div>
+          <div class="service-info">
+            <p>
+              Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.
+            </p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service-icon domain-transfer">
+            <i class="fas fa-arrows-alt"></i>
+          </div>
+          <div class="service-title">
+            <p>Domain Transfer</p>
+          </div>
+          <div class="service-info">
+            <p>
+              Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.
+            </p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service-icon live-support">
+            <i class="fas fa-comments"></i>
+          </div>
+          <div class="service-title">
+            <p>Live Support</p>
+          </div>
+          <div class="service-info">
+            <p>
+              Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="footer-container wrapper">
+        <div class="footer-info">
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consecteteeseurı adipiscing elit.
+              Donec mollis commodoeesene que, non commodo risus volutpat vel.
+            </p>
+          </div>
+          <div>
+            <p>Design by Mert Can Eyriyer.</p>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div>
+            <ul>
+              <li>
+                <i class="fas fa-chevron-right"></i>
+                <a href="#">Support</a>
+              </li>
+              <li>
+                <i class="fas fa-chevron-right"></i>
+                <a href="#">Account</a>
+              </li>
+              <li>
+                <i class="fas fa-chevron-right"></i>
+                <a href="#">Product Catalog</a>
+              </li>
+              <li>
+                <i class="fas fa-chevron-right"></i>
+                <a href="#">Shortcodes</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <i class="fas fa-chevron-right"></i>
+                <a href="#">Site Map</a>
+              </li>
+              <li>
+                <i class="fas fa-chevron-right"></i>
+                <a href="#">Search</a>
+              </li>
+              <li>
+                <i class="fas fa-chevron-right"></i>
+                <a href="#">Web Mail</a>
+              </li>
+              <li>
+                <i class="fas fa-chevron-right"></i>
+                <a href="#">Find Domain</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-contacts">
+          <div class="phone">
+            <i class="fas fa-phone"></i>
+            <span>0000-0000-0000</span>
+          </div>
+          <div class="mail">
+            <i class="fas fa-envelope"></i>
+            <span>informationteam@ghosthost.com</span>
+          </div>
+          <div class="address">
+            <p>Lorem Ipsum Street, Lorem Avenue, Lorem Ipsum</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Scripts-->
+    <script src="./resources/comments.js"></script>
+    <script src="./script/carousel.js"></script>
+  </body>
+</html>
